@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+header{
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #fcfcfc;
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border: solid black;
+}
+
+button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+  position: fixed;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6d6767;
+}
+
+
